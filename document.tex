@@ -6,7 +6,7 @@
 \begin{document}
 \firstpage{1}
 
-\title[short Title]{This is a title}
+\title[genewiseR]{genewiseR}
 \author[Sample \textit{et~al}]{Nehil Jain\,$^{1,*}$, Kacper Zukowski\,$^{2}$ and Co-Author\,$^2$\footnote{to whom correspondence should be addressed}}
 \address{$^{1}$Department of Computer Science, Address XXXX etc.\\
 $^{2}$Department of XXXXXXXX, Address XXXX etc.}
@@ -20,10 +20,11 @@ $^{2}$Department of XXXXXXXX, Address XXXX etc.}
 \begin{abstract}
 
 \section{Motivation:}
-Many tools for GWAS and NGS in Bioconductor. Very few tools for pooled seq gwas in R. large datasets in R because of new hig performance packages. Works well on desktop and cluster configurations. Open source on github, sample dataset available. Fast and intuitive methods for biology scientist to perform gwas analysis. Time consuming 
+
+R is the language of choice for statistical analysis in genomic research. This is because of its open source nature and the advance collection of R packages for statistical tests and visualisation of data. In GWAS studies, pooled sequencing is gaining popularity. Many tools exist to work with next-gen sequencing data in a gwas study; Bioconductor and Python are the go to places. Very few packages and tools exist for pooled seq gwas in R. This is mainly because of slow speed and memory constraints for R when working with large datasets. New high performance computing techniques in R have enabled the fullfilment of this gap.  Works well on desktop and cluster configurations. Open source. Fast and intuitive methods for biology scientist to perform gwas analysis. 
 
 \section{Results:}
-Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text
+The availablity of genewiseR on github makes it easy for scientists to install the package in their development environment is perform gwas analysis with ease. Because of addition on boostrapping feature for p-values of snps, this package allow scientist to indentify noise in their data and reduce the dataset early on in their gewas analysis. 
 
 \section{Availability:}
 genewiseR is open source and easily downloadable at \href{http://github.com/nehiljain/genewiseR}{github here}. The  
@@ -33,7 +34,15 @@ genewiseR is open source and easily downloadable at \href{http://github.com/nehi
 
 \section{Introduction}
 
-Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text. Figure~\ref{fig:01} shows that the above method  Text Text Text Text  Text Text Text Text Text Text  Text Text.  \citep{Bag01} wants to know about …… text follows.
+\begin{itemize}
+\item what is gwas?
+\item why pool seq and why new skills and large datasets?
+\item why snps to genes?
+\item study design to make use of genewiseR
+\end{itemize}
+
+
+ Text. Figure~\ref{fig:01} shows that the above method  Text Text Text Text  Text Text Text.  \citep{Bag01} wants to know about â€¦â€¦ text follows.
 
 \begin{equation}
 \sum x+ y =Z\label{eq:01}
@@ -42,24 +51,20 @@ Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Tex
 
 
 
-
-
-\section{Approach}
-
-Equation~(\ref{eq:01}) Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text. Figure \ref{fig:02} shows that the above method  Text Text Text Text  Text Text Text Text Text Text  Text Text.  \citealp{Boffelli03} might want to know about  text text text text ……
-
-
 \begin{methods}
-\section{Methods}
+\section{Description}
 
 Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text. Figure \ref{fig:02} shows that the above method  Text Text Text Text  Text Text Text Text Text Text  Text Text.  \citealp{Boffelli03} might want to know about  text text text text
 Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text. Figure \ref{fig:02} shows that the above method  Text Text Text Text  Text Text Text Text Text Text  Text Text.  \citealp{Boffelli03} might want to know about  text text text text
 Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text. Figure \ref{fig:02} shows that the above method  Text Text Text Text  Text Text Text Text Text Text  Text Text.  \citealp{Boffelli03} might want to know about  text text text text
 
 \begin{itemize}
-\item for bulleted list, use itemize
-\item for bulleted list, use itemize
-\item for bulleted list, use itemize
+\item Hypothesis testing, QC with bootstrapping
+\item Multiple testing correction
+\item Snps to Genes
+\item Calc gene level statistics
+\item LD assesment
+\item Utilities required by biologist
 \end{itemize}
 
 
@@ -111,7 +116,7 @@ row4 & row4 & row4 & row4\\\botrule
 \caption{Caption, caption.}\label{fig:02}
 \end{figure}
 
-\section{Discussion}
+\section{Example}
 
 Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text. Figure \ref{fig:02} shows that the above method  Text Text Text Text  Text Text Text Text Text Text  Text Text.  \citealp{Boffelli03} might want to know about  text text text text
 Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text. Figure \ref{fig:02} shows that the above method  Text Text Text Text  Text Text Text Text Text Text  Text Text.  \citealp{Boffelli03} might want to know about  text text text text
@@ -145,7 +150,7 @@ the above method Text Text.
 
 
 
-\section{Conclusion}
+\section{Validation or Conclusion}
 
 (Table~\ref{Tab:01}) Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text. Figure \ref{fig:02} shows that the above method  Text Text Text Text  Text Text Text Text Text Text  Text Text.  \citealp{Boffelli03} might want to know about  text text text text
 Text Text Text Text Text Text  Text Text Text Text Text Text Text Text Text  Text Text Text Text Text Text. Figure \ref{fig:02} shows that the above method  Text Text Text Text  Text Text Text Text Text Text  Text Text.  \citealp{Boffelli03} might want to know about  text text text text
