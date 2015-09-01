@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.19)  1 SEP 2015 12:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.19)  1 SEP 2015 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -473,48 +473,38 @@ Underfull \hbox (badness 1931) in paragraph at lines 26--28
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 35.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 
-Package natbib Warning: Citation `â€¢' on page 1 undefined on input line 60.
-
-
-Package natbib Warning: Citation `â€¢' on page 1 undefined on input line 60.
+Package natbib Warning: Citation `â€¢' on page 1 undefined on input line 55.
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 60--61
+Package natbib Warning: Citation `â€¢' on page 1 undefined on input line 55.
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 55--56
 \OT1/ptm/m/n/8 Sequencing Data. The reads of pool-seq experiment are mapped to
  []
 
 
-Package natbib Warning: Citation `â€¢' on page 1 undefined on input line 75.
+Package natbib Warning: Citation `â€¢' on page 1 undefined on input line 70.
 
 
-Package natbib Warning: Citation `â€¢' on page 1 undefined on input line 75.
+Package natbib Warning: Citation `â€¢' on page 1 undefined on input line 70.
 
 
-Overfull \hbox (6.47716pt too wide) in paragraph at lines 75--76
+Overfull \hbox (6.47716pt too wide) in paragraph at lines 70--71
  \OT1/ptm/m/it/9 2.1.1 Parallelisation and Performance[][] \OT1/ptm/m/n/8 Seque
 ncing pool of individuals
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 132.
-
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 123.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 123.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -523,30 +513,21 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <7> not available
 ]
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 145.
+(hyperref)                than one, level fixed on input line 136.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 161.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Extra height:0.0pt when 232.99347pt
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-(2)Left:232.99347pt Right:226.98694pt Output:232.99347pt
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
+Extra height:0.0pt when 185.49347pt
+(2)Left:185.49347pt Right:184.98694pt Output:185.49347pt
 - LAST -
 Extra skip:0.0pt
-Left:232.99347pt
-Right:226.98694pt
-Output:232.99347pt
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Left:185.49347pt
+Right:184.98694pt
+Output:185.49347pt
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <8> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 193.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 184.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <8> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 193.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 184.
 
 Overfull \hbox (261.0pt too wide) has occurred while \output is active
 [][] 
@@ -566,11 +547,11 @@ Overfull \hbox (261.0pt too wide) has occurred while \output is active
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
 (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 6F61F8C9D8AB0364578874D053A0395F;396.
 
@@ -578,16 +559,16 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 6784 strings out of 494985
- 94631 string characters out of 6180356
- 191869 words of memory out of 5000000
- 9862 multiletter control sequences out of 15000+600000
- 50644 words of font info for 103 fonts, out of 8000000 for 9000
+ 6782 strings out of 494985
+ 94610 string characters out of 6180356
+ 188869 words of memory out of 5000000
+ 9861 multiletter control sequences out of 15000+600000
+ 48960 words of font info for 101 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 37i,11n,28p,785b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,28p,785b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-d
@@ -602,10 +583,10 @@ texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on document.pdf (2 pages, 129555 bytes).
+Output written on document.pdf (2 pages, 129332 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 134 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  21 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
