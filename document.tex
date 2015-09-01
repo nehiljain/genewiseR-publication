@@ -56,6 +56,9 @@ Genome
 \begin{methods}
 \section{Description}
 
+\subsection{Input Data}
+The primary input data for this package is filtered sync files of Pooled Sequencing Data. The reads of pool-seq experiment are mapped to reference genome and then converted to multi-pileup(mpileup) format using 'Samtools' \citep{•}. The mpileup format is converted to sync using Popoolation2 \citep{•}. For detailed description refer [online documentation link here]. 
+
 \begin{itemize}
 \item Hypothesis testing, QC with bootstrapping
 \item Multiple testing correction
@@ -64,8 +67,12 @@ Genome
 \item LD assesment
 \item Utilities required by biologist
 \item Pathway analysis with Revigo/David
+
 \end{itemize}
 
+\subsubsection{Parallelisation and Performance}
+
+Sequecning pool of individuals are cheaper than individuals but 
 
 
   \citealp{Boffelli03}
@@ -149,6 +156,8 @@ Text Text Text Text Text Text  Text Text.  \citealp{Boffelli03} might want to kn
 
 
 \begin{thebibliography}{}
+
+
 \bibitem[Bofelli {\it et~al}., 2000]{Boffelli03} Bofelli,F., Name2, Name3 (2003) Article title, {\it Journal Name}, {\bf 199}, 133-154.
 
 \bibitem[Bag {\it et~al}., 2001]{Bag01} Bag,M., Name2, Name3 (2001) Article title, {\it Journal Name}, {\bf 99}, 33-54.
@@ -177,6 +186,8 @@ Bardet, G. (1920) Sur un syndrome d'obesite infantile avec
 polydactylie et retinite pigmentaire (contribution a l'etude des
 formes cliniques de l'obesite hypophysaire). PhD Thesis, name of
 institution, Paris, France.
+
+
 
 \end{thebibliography}
 \end{document}
